@@ -1,356 +1,264 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Wilfrid Pagac",
-            "email": "wilfrid@pagac.com",
-            "password": "Wilfrid",
-            "designer": true
-        },
-        {
-            "id": 2,
-            "name": "Elody Brekke",
-            "email": "elody@brekke.com",
-            "password": "Elody",
-            "designer": true
-        },
-        {
-            "id": 3,
-            "name": "Roderick Bernhard",
-            "email": "roderick@bernhard.com",
-            "password": "Roderick",
-            "designer": true
-        },
-        {
-            "id": 4,
-            "name": "Laurianne Senger",
-            "email": "laurianne@senger.com",
-            "password": "Laurianne",
-            "designer": true
-        },
-        {
-            "id": 5,
-            "name": "Emilie Parisian",
-            "email": "emilie@parisian.com",
-            "password": "Emilie",
-            "designer": true
-        },
-        {
-            "id": 6,
-            "name": "Mozell Auer",
-            "email": "mozell@auer.com",
-            "password": "Mozell",
-            "designer": true
-        },
-        {
-            "id": 7,
-            "name": "Raquel Crona",
-            "email": "raquel@crone.com",
-            "password": "Raquel",
-            "designer": true
-        },
-        {
-            "id": 8,
-            "name": "Elyse Zboncak",
-            "email": "elyse@zboncak.com",
-            "password": "Elyse",
-            "designer": true
-        },
-        {
-            "id": 9,
-            "name": "Uriel Moen",
-            "email": "uriel@moen.com",
-            "password": "Uriel",
-            "designer": true
-        },
-        {
-            "id": 10,
-            "name": "Everett Reynolds",
-            "email": "everett@reynolds.com",
-            "password": "Everett",
-            "designer": false
-        },
-        {
-            "id": 11,
-            "name": "Leonel O'Hara",
-            "email": "leonel@ohara.com",
-            "password": "Leonel",
-            "designer": false
-        },
-        {
-            "id": 12,
-            "name": "Claud Tromp",
-            "email": "claud@tromp.com",
-            "password": "Claud",
-            "designer": false
-        }
-    ],
-    "designers": [
-        {
-            "id": 1,
-            "userId": 9,
-            "experience": "3 years",
-            "availability": true
-        },
-        {
-            "id": 2,
-            "userId": 8,
-            "experience": "20 years",
-            "availability": true
-        },
-        {
-            "id": 3,
-            "userId": 7,
-            "experience": "14 years",
-            "availability": true
-        },
-        {
-            "id": 4,
-            "userId": 6,
-            "experience": "6 months",
-            "availability": false
-        },
-        {
-            "id": 5,
-            "userId": 5,
-            "experience": "6 years",
-            "availability": true
-        },
-        {
-            "id": 6,
-            "userId": 4,
-            "experience": "1 year",
-            "availability": true
-        },
-        {
-            "id": 7,
-            "userId": 3,
-            "experience": "1 month",
-            "availability": false
-        },
-        {
-            "id": 8,
-            "userId": 2,
-            "experience": "12 years",
-            "availability": true
-        },
-        {
-            "id": 9,
-            "userId": 1,
-            "experience": "2 years",
-            "availability": false
-        }
-    ],
-    "styles": [
-        {
-            "id": 1,
-            "style": "Modern",
-            "designerId": 1
-        },
-        {
-            "id": 2,
-            "style": "Contemporary",
-            "designerId": 2
-        },
-        {
-            "id": 3,
-            "style": "Mid-Century",
-            "designerId": 3
-        },
-        {
-            "id": 4,
-            "style": "Art Deco",
-            "designerId": 4
-        },
-        {
-            "id": 5,
-            "style": "Minimalist",
-            "designerId": 5
-        },
-        {
-            "id": 6,
-            "style": "Scandinavian",
-            "designerId": 6
-        },
-        {
-            "id": 7,
-            "style": "Eclectic",
-            "designerId": 7
-        },
-        {
-            "id": 8,
-            "style": "Industrial",
-            "designerId": 8
-        },
-        {
-            "id": 9,
-            "style": "Farmhouse",
-            "designerId": 9
-        }
-    ],
-    "posts": [
-        {
-            "id": 1,
-            "styleId": 9,
-            "imageURL": ""
-        },
-        {
-            "id": 2,
-            "styleId": 9,
-            "imageURL": ""
-        },
-        {
-            "id": 3,
-            "styleId": 9,
-            "imageURL": ""
-        },
-        {
-            "id": 4,
-            "styleId": 8,
-            "imageURL": ""
-        },
-        {
-            "id": 5,
-            "styleId": 8,
-            "imageURL": ""
-        },
-        {
-            "id": 6,
-            "styleId": 8,
-            "imageURL": ""
-        },
-        {
-            "id": 7,
-            "styleId": 7,
-            "imageURL": ""
-        },
-        {
-            "id": 8,
-            "styleId": 7,
-            "imageURL": ""
-        },
-        {
-            "id": 9,
-            "styleId": 7,
-            "imageURL": ""
-        },
-        {
-            "id": 10,
-            "styleId": 6,
-            "imageURL": ""
-        },
-        {
-            "id": 11,
-            "styleId": 6,
-            "imageURL": ""
-        },
-        {
-            "id": 12,
-            "styleId": 6,
-            "imageURL": ""
-        },
-        {
-            "id": 13,
-            "styleId": 5,
-            "imageURL": ""
-        },
-        {
-            "id": 14,
-            "styleId": 5,
-            "imageURL": ""
-        },
-        {
-            "id": 15,
-            "styleId": 5,
-            "imageURL": ""
-        },
-        {
-            "id": 16,
-            "styleId": 4,
-            "imageURL": ""
-        },
-        {
-            "id": 17,
-            "styleId": 4,
-            "imageURL": ""
-        },
-        {
-            "id": 18,
-            "styleId": 4,
-            "imageURL": ""
-        },
-        {
-            "id": 19,
-            "styleId": 3,
-            "imageURL": ""
-        },
-        {
-            "id": 20,
-            "styleId": 3,
-            "imageURL": ""
-        },
-        {
-            "id": 21,
-            "styleId": 3,
-            "imageURL": ""
-        },
-        {
-            "id": 22,
-            "styleId": 2,
-            "imageURL": ""
-        },
-        {
-            "id": 23,
-            "styleId": 2,
-            "imageURL": ""
-        },
-        {
-            "id": 24,
-            "styleId": 2,
-            "imageURL": ""
-        },
-        {
-            "id": 25,
-            "styleId": 1,
-            "imageURL": ""
-        },
-        {
-            "id": 26,
-            "styleId": 1,
-            "imageURL": ""
-        },
-        {
-            "id": 27,
-            "styleId": 1,
-            "imageURL": ""
-        }
-    ],
-    "favorites": [
-        {
-            "id": 1,
-            "postId": 1,
-            "userId": 12
-        }
-    ],
-    "messages": [
-        {
-            "id": 1,
-            "userId": 12,
-            "designerId": 1,
-            "messageText": "Hello!",
-            "read": false
-        }
-    ],
-    "designRequests": [
-        {
-            "id": 1,
-            "userId": 12,
-            "designerId": 1,
-            "room": "Living Room",
-            "windows": 6,
-            "doors": 2,
-            "dimensions": "12x16",
-            "description": "Lorem Ipsum"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Wilfrid Pagac",
+      "email": "wilfrid@pagac.com",
+      "password": "Wilfrid",
+      "designer": true
+    },
+    {
+      "id": 2,
+      "name": "Elody Brekke",
+      "email": "elody@brekke.com",
+      "password": "Elody",
+      "designer": true
+    },
+    {
+      "id": 3,
+      "name": "Roderick Bernhard",
+      "email": "roderick@bernhard.com",
+      "password": "Roderick",
+      "designer": true
+    },
+    {
+      "id": 4,
+      "name": "Laurianne Senger",
+      "email": "laurianne@senger.com",
+      "password": "Laurianne",
+      "designer": true
+    },
+    {
+      "id": 5,
+      "name": "Emilie Parisian",
+      "email": "emilie@parisian.com",
+      "password": "Emilie",
+      "designer": true
+    },
+    {
+      "id": 6,
+      "name": "Mozell Auer",
+      "email": "mozell@auer.com",
+      "password": "Mozell",
+      "designer": true
+    },
+    {
+      "id": 7,
+      "name": "Raquel Crona",
+      "email": "raquel@crone.com",
+      "password": "Raquel",
+      "designer": true
+    },
+    {
+      "id": 8,
+      "name": "Elyse Zboncak",
+      "email": "elyse@zboncak.com",
+      "password": "Elyse",
+      "designer": true
+    },
+    {
+      "id": 9,
+      "name": "Uriel Moen",
+      "email": "uriel@moen.com",
+      "password": "Uriel",
+      "designer": true
+    },
+    {
+      "id": 10,
+      "name": "Everett Reynolds",
+      "email": "everett@reynolds.com",
+      "password": "Everett",
+      "designer": false
+    },
+    {
+      "id": 11,
+      "name": "Leonel O'Hara",
+      "email": "leonel@ohara.com",
+      "password": "Leonel",
+      "designer": false
+    },
+    {
+      "id": 12,
+      "name": "Claud Tromp",
+      "email": "claud@tromp.com",
+      "password": "Claud",
+      "designer": false
+    }
+  ],
+  "designers": [
+    {
+      "id": 1,
+      "userId": 9,
+      "experience": "3 years",
+      "availability": true
+    },
+    {
+      "id": 2,
+      "userId": 8,
+      "experience": "20 years",
+      "availability": true
+    },
+    {
+      "id": 3,
+      "userId": 7,
+      "experience": "14 years",
+      "availability": true
+    },
+    {
+      "id": 4,
+      "userId": 6,
+      "experience": "6 months",
+      "availability": false
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "experience": "6 years",
+      "availability": true
+    },
+    {
+      "id": 6,
+      "userId": 4,
+      "experience": "1 year",
+      "availability": true
+    },
+    {
+      "id": 7,
+      "userId": 3,
+      "experience": "1 month",
+      "availability": false
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "experience": "12 years",
+      "availability": true
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "experience": "2 years",
+      "availability": false
+    }
+  ],
+  "styles": [
+    {
+      "id": 1,
+      "style": "Modern",
+      "designerId": 1
+    },
+    {
+      "id": 2,
+      "style": "Contemporary",
+      "designerId": 2
+    },
+    {
+      "id": 3,
+      "style": "Mid-Century",
+      "designerId": 3
+    },
+    {
+      "id": 4,
+      "style": "Art Deco",
+      "designerId": 4
+    },
+    {
+      "id": 5,
+      "style": "Minimalist",
+      "designerId": 5
+    },
+    {
+      "id": 6,
+      "style": "Scandinavian",
+      "designerId": 6
+    },
+    {
+      "id": 7,
+      "style": "Eclectic",
+      "designerId": 7
+    },
+    {
+      "id": 8,
+      "style": "Industrial",
+      "designerId": 8
+    },
+    {
+      "id": 9,
+      "style": "Farmhouse",
+      "designerId": 9
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "styleId": 9,
+      "imageURL": "https://www.homelane.com/blog/wp-content/uploads/2021/02/shutterstock_1517689694.jpg"
+    },
+    {
+      "id": 2,
+      "styleId": 3,
+      "imageURL": "https://i.imgur.com/cw5uttl.jpg"
+    },
+    {
+      "id": 3,
+      "styleId": 3,
+      "imageURL": "https://i.imgur.com/NUqiIbu.png"
+    },
+    {
+      "id": 4,
+      "styleId": 3,
+      "imageURL": "https://i.imgur.com/PIBhBCD.jpg"
+    },
+    {
+      "id": 5,
+      "styleId": 1,
+      "imageURL": "https://i.imgur.com/outbaaF.jpeg"
+    },
+    {
+      "id": 6,
+      "styleId": 1,
+      "imageURL": "https://i.imgur.com/LXkVi2k.jpeg"
+    },
+    {
+      "styleId": 1,
+      "imageURL": "https://i.imgur.com/FrA5dGt.jpg",
+      "id": 7
+    },
+    {
+      "styleId": 2,
+      "imageURL": "https://www.decoraid.com/wp-content/uploads/2018/07/contemporary-style-interior-design-living-room-1.jpg",
+      "id": 8
+    }
+  ],
+  "favorites": [
+    {
+      "postId": 2,
+      "userId": 5,
+      "id": 1
+    },
+    {
+      "postId": 3,
+      "userId": 5,
+      "id": 2
+    },
+    {
+      "postId": 4,
+      "userId": 5,
+      "id": 3
+    }
+  ],
+  "messages": [],
+  "designRequests": [
+    {
+      "userId": 14,
+      "designerId": 1,
+      "styleId": 1,
+      "room": "Bedroom",
+      "windows": "6",
+      "doors": "4",
+      "dimensions": "15x20",
+      "description": "Please design a modern mid-century bedroom",
+      "id": 2
+    }
+  ]
 }
